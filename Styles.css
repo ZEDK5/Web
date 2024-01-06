@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Salsa&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* RAYAN SECTIONS */
+#rayan {
+    background-image: url(./img/pagprf.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    height: 100vh; /* Añadido para ocupar toda la pantalla verticalmente */
+    z-index: 1;
+}
+
+#rayan::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(127, 118, 107);
+    opacity: .7;
+    z-index: -1;
+}
+#rayan h1 {
+display: block;
+width: fit-content;
+font-size: 4rem;
+position: relative;
+color: transparent;
+animation: text_reveal .5s ease forwards;
+animation-delay: 1.5s;
+
+}
+#rayan h1:nth-child(1){
+animation-delay: 1s;
+}
+#rayan h1:nth-child(2){
+    animation-delay: 2s;
+    }
+ #rayan h1:nth-child(3){
+     animation-delay: 3s;
+ }
+
+ #rayan h1:nth-child(1) span {
+ animation-delay: .5s;
+
+}
+#rayan h1:nth-child(2) span {
+    animation-delay: 1.5s;
+    
+   }
+   #rayan h1:nth-child(3) span {
+    animation-delay: 2.5s;
+
+   }
+
+#rayan h1 span {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: bisque;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+
+
+#rayan .cta {
+display: inline-block;
+padding: 10px 30px;
+color: white;
+background-color: transparent;
+border: 2px solid bisque;
+font-size: 2rem;
+text-transform: uppercase;
+letter-spacing: .1rem;
+margin-top: 30px;
+transition: .3 ease;
+transition-property: background-color, color;
+}
+#rayan .cta:hover {
+color: white;
+background-color: rgb(102, 99, 99);
+}
+
+/*ANIMACIONES*/
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal {
+    100% {
+        color: white;
+    }
+}
+    
+
+
+
+
