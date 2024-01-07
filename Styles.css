@@ -61,10 +61,11 @@ left: 0;
 top: 0;
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 z-index: 1;
 overflow-x: hidden;
+margin-left: 800px;
+
 }
 
 #header .nav-list ul a{
@@ -76,10 +77,11 @@ color: white;
 text-transform: uppercase;
 padding: 20px;
 display: block;
+
 }
 
 #header .nav-list ul a::after{
-content: 'text';
+content: '';
 position: absolute;
 top: 50%;
 left: 50%;
