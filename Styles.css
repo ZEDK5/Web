@@ -192,9 +192,56 @@ color: rgb(255, 255, 255);
 background-color: rgb(34, 33, 33);
 }
 
+/* services SECTIONS */
+
+#services {
+    width: 90%;
+    margin: auto;
+}
+
+.section-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services-cards{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+
+}
+
+.services-card {
+width: 350px;
+border: 1px solid #ddd;
+padding: 20px;
+margin: 20px;
+text-align: center;
+cursor: pointer;
+}
+
+.services-card i{
+font-size: 38px;
+margin-bottom: 20px;
+color: #ccae6c;
+}
+
+.services-card h2{
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.services-card p{
+font-size: 15px;
+color: #666;
+line-height: 1.5;
+
+}
 	
 footer {
-    position: relative;
+    margin-top: 150px;
+    position:absolute;
     width: 100%;
     background: #3586ff;
     min-height: 100px;
@@ -248,7 +295,7 @@ footer .menu li a:hover {
 footer p {
     color: white;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.1em;
 }
@@ -261,6 +308,7 @@ footer .wave {
     height: 100px;
     background: url(./img/wave.png);
     background-size: 1000px 100px;
+    
 }
 
 footer .wave#wave1 {
@@ -349,6 +397,8 @@ footer .wave#wave4 {
         transform: rotate(360deg);
     }
 }
+
+
     
 
 
