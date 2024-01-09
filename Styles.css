@@ -9,7 +9,7 @@
 }
 
 li,a, button{
-    font-family: 'Salsa', sans-serif;
+    font-family: 'Playfair', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: white;
@@ -40,16 +40,17 @@ width: 100px;
 }
 
 .nav_links li a {
+    font-family: 'Salsa', cursive;
     transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-    color: #0088a9; 
+    color: rgb(209, 192, 114); 
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(209, 192, 114);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -84,11 +85,12 @@ button:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(39, 38, 37);
+    background-color: rgb(32, 59, 58);
     opacity: .7;
     z-index: -1;
     
 }
+
 #rayan h1 {
 display: block;
 width: fit-content;
@@ -97,11 +99,11 @@ position: relative;
 color: transparent;
 animation: text_reveal .5s ease forwards;
 animation-delay: 1.5s;
-
+margin-right: 1000px;
 }
+
 #rayan h1:nth-child(1){
 animation-delay: 1s;
-margin-top: 200px;
 }
 #rayan h1:nth-child(2){
     animation-delay: 2s;
@@ -129,28 +131,65 @@ margin-top: 200px;
     left: 0;
     height: 100%;
     width: 0;
-    background-color: rgb(233, 202, 166);
+    background-color: rgb(219, 185, 146);
     animation: text_reveal_box 1s ease;
     animation-delay: .3s;
+    
+}
+
+#rayan p {
+    font-size: 1.5rem;
+    color: #fff;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .7s;
 }
 
 
 #rayan .cta {
-display: inline-block;
-padding: 10px 30px;
-color: rgb(255, 255, 255);
-background-color: transparent;
-border: 2px solid rgb(202, 173, 138);
-font-size: 2rem;
-text-transform: uppercase;
-letter-spacing: .1rem;
-margin-top: 30px;
-transition: .3 ease;
-transition-property: background-color, color;
+width: 200px;
+height: 100px;
+box-shadow: 16px 14px 20px #0000008c;
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+#rayan .cta::before {
+    content: "";
+    background-image: conic-gradient(
+        #ccae6c 0deg 180deg, 
+        transparent 180deg 360deg
+    );
+    width: 150%;
+    height: 50%;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+
+
+#rayan .cta::after{
+content: "Curriculum";
+width: 190px;
+height: 85px;
+background: black;
+position: absolute;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ccae6c;
+font-size: larger;
+letter-spacing: 5px;
+box-shadow: inset 20px 20px 20px #0000008c;
+background-color: rgb(34, 33, 33);
+}
+
 #rayan .cta:hover {
 color: rgb(255, 255, 255);
-background-color: rgb(102, 99, 99);
+background-color: rgb(34, 33, 33);
 }
 
 	
@@ -194,6 +233,7 @@ footer .social_icons li a:hover {
 }
 
 footer .menu li a {
+    font-family: 'Salsa' , cursive;
     font-size: 2em;
     color: white;
     margin: 0 10px;
@@ -220,7 +260,7 @@ footer .wave {
     width: 100%;
     height: 100px;
     background: url(./img/wave.png);
-background-size: 1000px 100px;
+    background-size: 1000px 100px;
 }
 
 footer .wave#wave1 {
@@ -298,6 +338,15 @@ footer .wave#wave4 {
     }
     100% {
         background-position-x: 1000px;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
     
