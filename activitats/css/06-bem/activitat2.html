@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Comentarios</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+    }
+
+    .comments {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .comment {
+      margin-bottom: 10px;
+    }
+
+    .comment__author {
+      font-weight: bold;
+      color: #81e0c1;
+    }
+
+    .comment__content {
+      margin-top: 5px;
+    }
+
+    .comment-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .comment-form input[type="submit"] {
+      padding: 10px;
+      background-color: #81e0c1;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="comments">
+    <div class="comment">
+      <div class="comment__author">Rayan</div>
+      <div class="comment__content">
+        Me gusto la publicacion pienso que tiene razon
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="comment__author">Khalil</div>
+      <div class="comment__content">
+        Video interesante...
+      </div>
+    </div>
+  </div>
+
+  <div class="comment-form">
+    <form action="#" method="post">
+      <textarea name="comment" placeholder="Escribe aquí tu comentario"></textarea>
+      <br>
+      <input type="submit" value="Comentar">
+    </form>
+  </div>
+</body>
+</html>
