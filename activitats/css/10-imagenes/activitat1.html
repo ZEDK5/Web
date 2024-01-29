@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Actividad 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .chat-container {
+            width: 300px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .chat-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .message {
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .avatar img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .info {
+            overflow: hidden;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #000000;
+            font-size: 0.8em;
+        }
+
+        .message-text {
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .message {
+            background-color: #7bf5d6;
+        }
+
+        .my-message {
+            background-color: #7bf5d6;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+        <ul class="chat-list">
+            <li class="message">
+                <div class="avatar">
+                    <img src="../../../img/3551739.jpg" alt="Incognito">
+                </div>
+                <div class="info">
+                    <div class="name">Incognito</div>
+                    <div class="date">15 de enero 2024</div>
+                    <div class="message-text">Hola, ¿cómo estás?</div>
+                </div>
+            </li>
+
+            <li class="message my-message">
+                <div class="avatar">
+                    <img src="../../../img/3594138.jpg" alt="Avatar 2">
+                </div>
+                <div class="info">
+                    <div class="name">Anonymus</div>
+                    <div class="date">29 de enero 2024</div>
+                    <div class="message-text">¡Hola! Estoy bien, gracias. ¿Y tú?</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</body>
