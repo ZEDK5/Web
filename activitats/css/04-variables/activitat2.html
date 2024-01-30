@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rectángulo</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .rectangulo {
+            --altura: 100px; /* Definir la altura usando una variable local */
+            width: calc(var(--altura) * 2); /* Calcular la anchura como el doble de la altura */
+            height: var(--altura);
+            background-color: #34db3c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rectangulo"></div>
+</body>
+
+</html>
