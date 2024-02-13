@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mis Podcasts Favoritos</title>
+    <link>https://zedk5.github.io/Web/</link>
+    <description>Lista de mis podcasts favoritos</description>
+    <language>es</language>
+    <item>
+      <title>Podcast 1</title>
+      <description><![CDATA[<img src="../imagenes/Andrew-logo.png" alt="Andrew-logo" width="100"><br><audio controls><source src="../audios/x2mate.com - Andrew Tate's Motivational Speech For 2024 (320 kbps).mp3" type="audio/mp3"></audio>]]></description>
+    </item>
+    <item>
+      <title>Podcast 2</title>
+      <description><![CDATA[<img src="../imagenes/David_Goggins.png" alt="David_Goggins" width="100"><br><audio controls><source src="../audios/x2mate.com - BECOME MENTALLY TOUGH - Motivational Speech (320 kbps).mp3" type="audio/mp3"></audio>]]></description>
+    </item>
+  </channel>
+</rss>
