@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Notícies d'Informàtica</title>
+    <link href="https://example.com/noticies_informatica" rel="self"/>
+    <link href="https://example.com/noticies_informatica"/>
+    <updated>2024-02-14T00:00:00Z</updated>
+    <author>
+        <name>Tu Nom Sencer</name>
+    </author>
+    <entry>
+        <title>El creador de One Piece, Eiichiro Oda, desvela cuál es el personaje que más le molesta de su serie. Y tiene buenas razones para escoger a Luffy</title>
+        <link href="https://www.3djuegos.com/manga-anime/noticias/creador-one-piece-eiichiro-oda-desvela-cual-personaje-que-le-molesta-su-serie-tiene-buenas-razones-para-escoger-a-luffy"/>
+        <id>urn:uuid:60a79b18-4b79-44e8-991b-0b530cc6ec37</id>
+        <updated>2024-02-14T00:00:00Z</updated>
+    </entry>
+    <entry>
+        <title>Hice historia en HellDivers 2 al liberar un planeta y la recompensa que me llevé fue decepcionante. Aunque prefiero creer que es parte de la parodia</title>
+        <link href="https://www.3djuegos.com/juegos/helldivers-2/noticias/hice-historia-helldivers-2-al-liberar-planeta-recompensa-que-me-lleve-fue-decepcionante-prefiero-creer-que-parte-parodia"/>
+        <id>urn:uuid:60a79b18-4b79-44e8-991b-0b530cc6ec38</id>
+        <updated>2024-02-14T00:00:00Z</updated>
+    </entry>
+    <entry>
+        <title>El jefe de Sony ha analizado los estudios de PlayStation y detecta un importante punto a mejorar. Hay camino por delante "en lo que respecta a negocios"</title>
+        <link href="https://www.3djuegos.com/ps5/noticias/jefe-sony-ha-analizado-estudios-playstation-detecta-importante-punto-a-mejorar-hay-camino-delante-que-respecta-a-negocios"/>
+        <id>urn:uuid:60a79b18-4b79-44e8-991b-0b530cc6ec39</id>
+        <updated>2024-02-14T00:00:00Z</updated>
+    </entry>
+</feed>
