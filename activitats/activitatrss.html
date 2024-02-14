@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentrss</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .rss-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .rss-links a {
+            margin: 0 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .rss-links a:hover {
+            transform: translateY(-5px);
+        }
+
+        .rss-links img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Subscriu-te a les notícies d'Informàtica i jocs.</h1>
-    <p>Per estar al dia amb les últimes notícies de jocs i informatica, subscriu-te al nostre canal RSS:</p>
-    <a href="./rssiatom/rss.xml"><img src="../img/rss.png" alt="RSS Icon" width="50" height="50"></a>
-    <a href="./rssiatom/atom.xml"><img src="../img/rss.png" alt="RSS Icon" width="50" height="50"></a>
+    <div class="container">
+        <h1>Subscriu-te a les notícies d'Informàtica i jocs.</h1>
+        <p>Per estar al dia amb les últimes notícies de jocs i informatica, subscriu-te al nostre canal RSS:</p>
+        <div class="rss-links">
+            <a href="./rssiatom/rss.xml"><img src="../img/rss.png" alt="RSS Icon"></a>
+            <a href="./rssiatom/atom.xml"><img src="../img/nucleus.png" alt="RSS Icon"></a>
+            <a href="https://rss.app/feeds/f8fuPN3RWZBaQh1g.xml"><img src="../img/podcast.png" alt="RSS Icon"></a>
+        </div>
+    </div>
 </body>
+</html>
