@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Notícies d'Informàtica</title>
-    <link href="https://example.com/noticies_informatica" rel="self"/>
-    <link href="https://example.com/noticies_informatica"/>
+    <link href="https://www.3djuegos.com/noticias" rel="self"/>
+    <link href="https://www.3djuegos.com/noticias"/>
     <updated>2024-02-14T00:00:00Z</updated>
     <author>
         <name>Tu Nom Sencer</name>
